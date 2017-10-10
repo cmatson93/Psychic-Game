@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Psychic Game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+  </head>
+  <body>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="jumbotron">
+            <h1>The Psychic Game</h1>
+            <h2 class="text-center">Guess what letter I am thinking of...</h2>
+            <h2 class="text-center">You just guessed <span id="user-text"><strong>...Nothing.</strong></span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Your Score Table</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Wins</th>
+              <td id= "winScore">0</td>
+            </tr>
+            <tr>
+              <th scope="row">Losses</th>
+              <td id="lossScore">0</td>
+            </tr>
+            <tr>
+              <th scope="row">Guesses Left</th>
+              <td id="guessesLeft">10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
