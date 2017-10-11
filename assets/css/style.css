@@ -1,0 +1,52 @@
+body {
+	animation-name: background;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+	background-color: #BB7976;
+}
+
+@keyframes background {
+	from {
+		background-color: #EFD1CA;
+	}
+	20% {
+		background-color: #D5A5A0;
+	}
+	40% {
+		background-color: #BB7976;
+	}
+	50% {
+		background-color: #AE6361;
+	}
+	60% {
+		background-color: #AE6361;
+	}
+	80% {
+		background-color: #BB7976;
+	}
+	to {
+		background-color: #BB7976;
+	}
+
+}
+
+
+
+
+.jumbotron {
+	font-family: 'Kalam', cursive;
+	animation-name: slidein;
+	animation-duration: 3s;
+	background-color: #655D5D;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}

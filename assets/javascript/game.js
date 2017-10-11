@@ -25,7 +25,7 @@
 		  	var userGuess = event.key; 
 		  	console.log(computerLetter);
 		  	console.log(userGuess);
-				userText.textContent = userGuess;
+			userText.textContent = userGuess;
 			if (userGuess === computerLetter) {
 				winScore.textContent++;
 				alert("You got it right!");
